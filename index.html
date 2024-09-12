@@ -77,8 +77,8 @@
     </nav>
     
     <!-- Section for hero -->
-    <section class="hero max-w-6xl mx-auto py-12 ">
-        <div class="flex flex-row items-center justify-between">
+    <section class="hero max-w-6xl mx-auto py-12 px-5">
+        <div class="flex flex-col gap-y-14 lg:flex-row items-center justify-between">
             <!-- This for left content -->
             <div class="flex flex-col gap-y-10">
                 <div class="small-badge w-fit gap-x-2 px-3 py-2 flex flex-row bg-white rounded-full">
@@ -89,29 +89,29 @@
                         <path d="M3.5 16.5V15.5C9.34 17.45 15.66 17.45 21.5 15.5V16.5" stroke="#080C2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M3.5 9.50001C9.34 7.55001 15.66 7.55001 21.5 9.50001" stroke="#080C2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
-                        <p class="text-base font-semibold text-indigo-950">
+                        <p class="text-[15px] items-center md:text-base font-semibold text-indigo-950">
                             We host more than 120,000 websites
                         </p>
                 </div>
         
                 <div class="gap-y-2 flex flex-col">
-                    <h1 class="text-indigo-950 font-['Clash_Display'] text-[70px] leading-none">
-                        Grow Online <br>
+                    <h1 class="text-indigo-950 font-['Clash_Display'] text-6xl lg:text-[70px] leading-none">
+                        Grow Online <br class="hidden lg:block">
                         Business Faster.
                     </h1>
             
                     <p class="text-base leading-loose text-gray-500">
-                        We provide a variety of servers to grow your users <br>
+                        We provide a variety of servers to grow your users <br class="hidden lg:block">
                         acquisition much user-friendly and boosting up sales.
                     </p>
                 </div>
         
-                <div class="flex flex-row gap-x-2 items-center">
+                <div class="flex flex-col w-full gap-y-4 md:flex-row gap-x-2 justify-center text-center">
                     <a href="" class="bg-violet-700 hover:bg-indigo-950 text-white py-3 rounded-full font-semibold px-8">
                         Try Free Trial
                     </a>
             
-                    <a href="" class="px-4 flex items-center text-violet-700 mx-2 font-semibold">
+                    <a href="" class="px-4 flex items-center justify-center gap-x-4 text-violet-700 mx-2 font-semibold">
                         <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M20.5 12.2V13.9C20.5 17.05 18.7 18.4 16 18.4H7C4.3 18.4 2.5 17.05 2.5 13.9V8.5C2.5 5.35 4.3 4 7 4H9.7C9.57 4.38 9.5 4.8 9.5 5.25V9.15002C9.5 10.12 9.82 10.94 10.39 11.51C10.96 12.08 11.78 12.4 12.75 12.4V13.79C12.75 14.3 13.33 14.61 13.76 14.33L16.65 12.4H19.25C19.7 12.4 20.12 12.33 20.5 12.2Z" stroke="#640EF1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M22.5 5.25V9.15002C22.5 10.64 21.74 11.76 20.5 12.2C20.12 12.33 19.7 12.4 19.25 12.4H16.65L13.76 14.33C13.33 14.61 12.75 14.3 12.75 13.79V12.4C11.78 12.4 10.96 12.08 10.39 11.51C9.82 10.94 9.5 10.12 9.5 9.15002V5.25C9.5 4.8 9.57 4.38 9.7 4C10.14 2.76 11.26 2 12.75 2H19.25C21.2 2 22.5 3.3 22.5 5.25Z" stroke="#640EF1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -128,7 +128,7 @@
 
             <!-- This for right content -->
             <div class="flex flex-row items-center">
-                <img src="images/illustration_header.png" class="h-[550px] pointer-events-none">
+                <img src="images/illustration_header.png" class="h-[370px] md:h-[550px] pointer-events-none">
             </div>
         </div>
         
@@ -236,13 +236,13 @@
     </section>
 
     <!-- Section for features -->
-    <section class="features max-w-6xl mx-auto py-12">
-        <h3 class="text-indigo-950 font-['Clash_Display'] text-5xl text-center mb-8">
+    <section class="features max-w-6xl mx-auto py-12 px-5">
+        <h3 class="text-indigo-950 font-['Clash_Display'] text-4xl md:text-5xl text-center mb-8">
             Your Best Choice
         </h3>
 
         <!-- Card Section -->
-        <div class="grid grid-cols-4 gap-x-8">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-8">
             <!-- Card 1 -->
             <div class="feature-card flex flex-col gap-y-8 bg-white rounded-2xl py-8 px-6">
                 <svg width="47" height="46" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -375,18 +375,18 @@
     </section>
 
     <!-- Section for benefits -->
-    <section class="benefits max-w-6xl mx-auto py-12">
-        <div class="flex flex-row items-center gap-x-24">
+    <section class="benefits max-w-6xl mx-auto py-12 px-5">
+        <div class="flex flex-col md:flex-row items-center gap-x-24">
             <!-- This for left content -->
             <div class="flex flex-row items-center">
-                <img src="images/illustration_benefits.png" class="h-[550px] pointer-events-none">
+                <img src="images/illustration_benefits.png" class="md:block hidden h-[550px] pointer-events-none">
             </div>
 
             <!-- This for right content -->
             <div class="flex flex-col gap-y-10">
 
                 <div class="gap-y-3 flex flex-col">
-                    <h3 class="text-indigo-950 font-['Clash_Display'] text-5xl leading-none">
+                    <h3 class="text-indigo-950 font-['Clash_Display'] text-4xl md:text-5xl leading-none">
                         We Have Very <br> Strong Ecosystem
                     </h3>
 
@@ -682,8 +682,8 @@
     </section>
 
     <!-- Section Call to Action -->
-    <div class="z-10 relative cta-wrapper max-w-6xl mx-auto bg-violet-700 p-16 my-10 rounded-3xl">
-        <div class="grid grid-cols-2 gap-x-10 items-center">
+    <div class="z-10 relative cta-wrapper max-w-6xl mx-auto bg-violet-700 p-16 my-10 lg:rounded-3xl">
+        <div class="grid md:grid-cols-2 gap-x-10 gap-y-10 items-center">
             <div class="flex flex-col gap-y-14">
                 <div class="flex flex-col gap-y-10">
                     <div class="small-badge w-fit gap-x-2 px-3 py-2 flex flex-row bg-white rounded-full">
@@ -699,17 +699,17 @@
                             </p>
                     </div>
                     <div class="flex flex-col gap-y-3">
-                        <h3 class="text-white font-['Clash_Display'] text-5xl leading-none">
+                        <h3 class="text-white font-['Clash_Display'] text-3xl md:text-5xl leading-none">
                             Start Growing Today
                         </h3>
                         <p class="text-white leading-relax text-gray-500">
-                            We provide a variety of servers to grow your users <br>acquisition much user-friendly and boosting up sales.
+                            We provide a variety of servers to grow your users <br class="hidden lg:block"> acquisition much user-friendly and boosting up sales.
                         </p>
                     </div>
             
                     <!-- Button -->
-                    <div class="flex flex-row gap-x-2 items-center">
-                        <a href="" class="bg-[#FFD15A] hover:bg-indigo-950 text-[#080C2E] py-3 rounded-full font-semibold px-8">
+                    <div class="flex flex-col md:flex-row gap-x-2 gap-y-4">
+                        <a href="" class="w-fit bg-[#FFD15A] hover:bg-indigo-950 text-[#080C2E] py-3 rounded-full font-semibold px-8">
                             Explore More
                         </a>
                 
@@ -728,7 +728,7 @@
                     </div>
                 </div>
             </div>
-            <div class="grid grid-cols-3 gap-x-5 gap-y-5">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-5">
                 
                 <!-- Card 1 -->
                 <div class="relative group hover:bg-[#080C2E] cta-card-feature bg-white rounded-2xl px-auto py-6 flex flex-col items-center justify-between gap-y-5">
@@ -1045,7 +1045,7 @@
 
     <!-- Section Footer -->
     <section class="footer -mt-[230px] bg-[#070C29] -z-10">
-        <div class="max-w-6xl mx-auto grid grid-cols-5 gap-x-20 pt-6 pt-[260px]">
+        <div class="max-w-6xl mx-auto grid lg:grid-cols-5 gap-y-16 px-5 gap-x-20 pt-6 pt-[260px]">
             <!-- Website Information -->
             <div class="flex flex-col col-span-2 gap-y-8">
                 <a href="">
@@ -1066,7 +1066,7 @@
                 </a>
 
                 <p class="text-base leading-loose text-gray-500">
-                    We host your empire business today <br> using the latest technologies.
+                    We host your empire business today <br > using the latest technologies.
                 </p>
 
                 <div class="flex flex-row gap-x-3">
